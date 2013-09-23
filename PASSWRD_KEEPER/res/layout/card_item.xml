@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	
+	<TextView
+		android:id="@+id/rowid"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+        android:typeface="sans" 
+        android:textSize="16sp" 
+        android:textStyle="bold"/>
+	
+	<TextView 
+       	android:id="@+id/bcard_namelabel" 
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content" 
+       	android:textStyle="bold"
+        android:text="Bank Name: " 
+        android:textSize="13sp"
+		android:layout_below="@id/rowid">
+    </TextView>	
+	<TextView
+        android:id="@+id/bcard_name" 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_toRightOf="@id/bcard_namelabel"
+        android:layout_below="@id/rowid">
+    </TextView>
+
+	<TextView
+        android:id="@+id/card_no_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Card Number: "
+        android:textSize="13sp"
+		android:layout_below="@id/bcard_name">
+    </TextView>
+	<TextView
+        android:id="@+id/card_no" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:textSize="13sp" 
+        android:layout_weight="1"
+        android:layout_toRightOf="@+id/card_no_label"
+		android:layout_below="@id/bcard_name">
+    </TextView>
+	
+	<TextView
+        android:id="@+id/card_Pin_no_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Pin Number: "
+    	android:textSize="13sp"
+		android:layout_below="@id/card_no">
+    </TextView>
+	<TextView
+        android:id="@+id/card_Pin_no" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:textSize="13sp" 
+        android:layout_weight="1"
+        android:layout_toRightOf="@+id/card_Pin_no_label"
+		android:layout_below="@id/card_no">
+    </TextView>
+	
+	
+    <TextView
+        android:id="@+id/bc_noteslabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Notes: "
+    	android:textSize="13sp"
+		android:layout_below="@id/card_Pin_no">
+    </TextView>
+	<TextView
+        android:id="@+id/bc_notes" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:textSize="13sp" 
+        android:layout_weight="1"
+        android:layout_toRightOf="@+id/bc_noteslabel"
+		android:layout_below="@id/card_Pin_no">
+    </TextView>
+    
+</RelativeLayout>

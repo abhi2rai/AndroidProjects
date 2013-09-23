@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+    <TextView android:text="ENTER THE TITLE:" android:width="75dip" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingBottom="20dip" android:paddingTop="25dip" android:id="@+id/textView1"></TextView>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/editText1"></EditText>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1">
+        <TextView android:text="CLICK ON THE BUTTON TO SELECT THE DATE:" android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_width="wrap_content" android:paddingTop="20dip" android:paddingBottom="20dip"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout2">
+        <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="SELECT DATE" android:id="@+id/pickdate"></Button>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout3" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="TextView" android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="20dip" android:paddingTop="20dip" android:id="@+id/mdateshow"></TextView>
+        <TextView android:layout_height="wrap_content" android:text="TextView" android:id="@+id/showtime" android:layout_width="wrap_content" android:paddingLeft="20dip"></TextView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout4" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:paddingBottom="20dip" android:layout_height="wrap_content" android:paddingTop="20dip" android:text="CLICK TO SELECT TIME:"></TextView>
+        <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="SELECT TIME" android:id="@+id/time"></Button>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout5" android:layout_width="match_parent">
+    <Button android:layout_width="match_parent" android:id="@+id/schedule" android:layout_height="wrap_content" android:text="CONTINUE"></Button>
+    </LinearLayout>
+</LinearLayout>

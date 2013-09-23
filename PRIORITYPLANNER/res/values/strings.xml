@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, priorityplanner!</string>
+    <string name="app_name">PRIORITYPLANNER</string>
+    <string name="priority">Choose a PRIORITY</string>
+    <string-array name="prioritynum">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string name="no_todos">Currently there are no Tasks items maintained</string>
+	<string name="menu_insert">Add Item</string>
+	<string name="menu_delete">Delete Tasks</string>
+	<string name="todo_summary">Summary</string>
+	<string name="todo_description">Delete Tasks</string>
+	<string name="todo_edit_summary">Summary</string>
+	<string name="todo_edit_description">Description</string>
+	<string name="todo_edit_confirm">Confirm</string>
+	<color name="listcolor">#FFE87C</color>
+	<color name="black">#000000</color>
+    
+</resources>

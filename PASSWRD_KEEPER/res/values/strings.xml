@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Password Keeper</string>
+	<string name="empty">No Accounts in database!</string>
+	
+	<string name="contact_intent">Account Data</string>
+    <string name="nameDefault">Subject</string>
+    <string name="mobilePhoneDefault">Username</string>
+    <string name="emailDefault">Password</string>
+    <string name="quesDefault">Security Ques.</string>
+    <string name="ansDefault">Answer</string>
+    <string name="notesDefault">Notes</string>
+    
+    <string name="bank_intent">Bank Details</string>
+    <string name="banknameDefault">Bank Name</string>
+    <string name="Acc_noDefault">Account Number</string>
+    <string name="Pin_noDefault">Pin Number</string>
+    <string name="banknotesDefault">Notes</string>
+    
+    <string name="card_intent">Card Details</string>
+    <string name="cardnoDefault">Card Number</string>
+    <string name="cardsecretDefault">Secret Pin</string>
+    
+    
+    <string-array name="pages_array">
+    <item>Mail Accounts</item>
+    <item>Bank Accounts</item>
+    <item>Card Details</item>
+    </string-array>
+    
+</resources>
